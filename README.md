@@ -76,7 +76,7 @@ It's pretty easy to throw a script into the middle of an object. That isn't this
 * Don't use local variables, make methods instead that capture that logic (and memoize if necessary)
 * Name your methods well, and notice when the names start to group together. It's probably a missing class.
 * Arguments to methods may be a sign of a missing object. This is particularly true when you need to pass the same argument around to several methods
-* The inside of loops are also candidates for seprate objects, since they have different state than outside the container
+* The inside of loops are also candidates for seperate objects, since they have different state than outside the container
 * When using the private demarkation, maybe you just need another class that is inherently private
 * Pay attention to the colors and shapes in your IDE. Methods with similar colors and shapes typically belong together, and ones that are very different can be a smell.
 
