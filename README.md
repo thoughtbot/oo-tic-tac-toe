@@ -4,7 +4,8 @@ This is an exercise in TDD-ing and OO Design. It's broken into 7 features:
 
 ## Features
 
-1. When you run ruby `tic_tac_toe/game_runner.rb`, an empty grid is rendered on the screen.
+
+1. When you run ruby `oo-tic-tac-toe/game_runner.rb`, an empty grid is rendered on the screen.
 ```
    __ __ __
   |  |  |  |
